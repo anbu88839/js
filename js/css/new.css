@@ -1,0 +1,14 @@
+.box{
+     background-color:aqua;
+     width:100vh;
+     color:black;
+     height:70vh;
+     padding:1rem;
+     float:left;
+     margin-left: 100px;
+     margin-top: 200px;
+    
+}
+.box img{
+           width: 70vh;
+}

@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    width: 100vw;
+    background-color: springgreen;
+    height: 10vh;
+}
+.head h1{
+    text-align: center;
+}
+#wwe{
+    height: 10vh;
+    background-color: rgb(0, 157, 255);
+    
+}
+   
+.nav-item{
+    margin: 50px;
+   
+}

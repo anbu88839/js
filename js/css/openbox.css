@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+                         "header"
+                        "main";
+}
+header{
+    grid-area:header;
+    background-color:lawngreen;
+    height: 9.5vh;
+    width:100%;
+    text-align: center;
+}
+
+
+main{
+    grid-area: main;
+    height: 90vh;
+    background-image: radial-gradient(yellow,red);
+}
+#abc{
+    grid-area: main;
+    grid-template-columns: 1fr 1fr;
+}
+#abc img{
+    width: 40vw;
+    padding-top: 78px;
+    position: relative;
+   }

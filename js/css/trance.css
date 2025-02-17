@@ -1,0 +1,17 @@
+.box{
+    width:100px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+
+}
+.container{
+    margin: 20px;
+    display: inline-flex;
+}
+.translate{
+    transform: translate(50px,50px);
+}
+.rote{
+    transform: rotate(45deg);
+}

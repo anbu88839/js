@@ -1,0 +1,25 @@
+.pagination{
+    
+    
+    justify-content: center;
+    margin-top: 60px;
+    display:flex;
+  
+}
+.pagination a{
+    text-decoration:none ;
+    border: 4px solid black;
+    border-radius: 10px;
+    margin-left: 20px;
+    color:darkmagenta;
+    padding:30px;
+}    
+    
+
+.pagination a.green{
+    background-color: rgba(126, 252, 0, 0.504);
+}
+.pagination a:hover:not(.green){
+    background-color: rgba(128, 128, 128, 0.762);
+
+}

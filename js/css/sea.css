@@ -1,0 +1,31 @@
+body{
+    background-image:url("../images/ff.jpg");
+    filter: blur(blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+form{
+    background-color:rgba(104, 215, 255, 0.5);
+    padding: 100px;
+    height: 250px;
+    top: 300px;
+    border-radius: 30px;
+    left: 50px;
+}
+.box{
+    width: 150px;
+    height: 35px;
+    background-color: rgb(87, 165, 255);
+    font-size: 30px;
+    text-align: center;
+    border-radius: 30px;
+    
+
+}
+input{
+    color: black;
+    border-radius: 30px;
+}

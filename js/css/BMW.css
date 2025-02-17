@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+   
+    background-color: hsl(0, 0%, 15%);
+    color: white;
+    height: 13vh;
+    width: 100vw;
+    
+}
+.head{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 0.5vh;
+    margin-left: 25vh;
+}
+.head h4{
+    margin-left: 0vh;
+}
+.logo{
+   position: absolute;
+   top:0px;
+   right:0;
+   margin-left: 10px;
+}
+
+
+
+.button{
+    border: 2px solid white;
+    width: 15vh;
+    padding: 0.5vh;
+  
+   
+    
+
+}
+.rt{
+    margin-right: 40vh;
+    text-align: right ;
+}
+.rt i{
+    padding: 1vh;
+    
+}
+nav{
+    display: flex;
+    margin-left: 18vh;
+    margin-top: 3vh;
+}
+nav li{
+    display: inline;
+    padding: 1.5vh;
+    font-size: 2.2vh;
+}
+.ef{
+    border: 1px solid black;
+    margin-top: 4vh;
+    width: 71vh;
+    height: 53vh;
+    background-color:hsl(0, 0%, 13%);  
+    padding:none;
+    box-shadow: 5px 5px 10px  hsl(0, 0%, 0%);
+    
+}
+
+
+
+#new{
+    position: absolute;
+    color: white;
+    top:45vh;
+    left: 20vh;
+   
+}
+#two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 110vh;
+    background-color:hsl(0, 0%, 15%); 
+    width: 100vw;
+}
+.ek{
+    color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+.tho{
+    position: relative;
+    
+    top: 200px;
+}
+.tho img{
+    width:650px;
+    margin-left: 5px;
+}
+form{
+    position: absolute;
+    margin-left: 20px;
+}
+#two option,input{
+    color: aliceblue;
+
+}
+.ab{
+    
+    border: 1px solid black;
+   width: 70vh;
+   height: 10vh;
+   box-shadow: 5px 5px 10px black;
+}
+
+
+.cd{
+    margin-top: 3vh;
+    border: 1px solid black;
+    width: 70vh;
+    height: 10vh;
+    box-shadow: 5px 5px 10px black;
+ }
+
+select{
+    background-color: hsl(0, 0%, 15%);
+    color: white;
+    width: 69vh;
+    border:none;
+    height: 5vh;
+    text-align: left;
+}
+.ab option{
+    border: 2px solid white;
+}    
+    
+
+.m,.n,.o,.p {
+    
+   border: 3px solid  hsl(0, 0%, 15%);
+    width: 70vh;
+    height: 10vh;
+   
+    margin-top: 2vh;
+
+    
+
+}
+#three{
+    position: relative;
+    background-color:hsl(0, 0%, 25%);
+    width: 100vw;
+    height: 85vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.root img{
+    height: 70vh;
+    width: 40vh;
+    float: left;
+    margin-top: 5vh;
+    padding: 1vh;
+    margin-left: 3vh;
+}
+.root h1{
+    color: white;
+    margin-left: 4vh;
+    margin-top: 2vh;
+}
+#fore{
+    background-color:hsl(0, 0%, 15%);
+    height: 85vh;
+    
+   
+    width: 100vw;
+}
+#fore h1{
+    font-size: 5vh;
+    margin-left: 3vh;
+    color: aliceblue;
+    margin-top: 15vh;
+    text-align: center;
+}
+   
+
+
+.tv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 20PX;
+    font-size: 10vh;
+    
+   
+    
+}
+.tv div{
+    align-items: center;
+    background-color:rgb(230,230,230);
+    margin: 3vh;
+    padding: 50px;
+}
+.tv i{
+    color:rgb(102,102,102);
+}
+/* .tv ul{
+    
+    display: flex;
+    justify-content: space-around;
+
+}
+.tv li{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+} */
+ .bb h3{
+    color: aliceblue;
+    width: 30vw;
+    margin-top: 20px;
+    margin-left: 50px;
+ }
+ #foot{
+    height: 14vh;
+    width: 100vw;
+   margin: 0;
+   padding: 0;
+    
+ }
+ .end{
+  color: rgb(0, 0, 0);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 14vh;
+
+
+  background-color:hsl(0, 0%, 15%);
+  color: rgb(255, 255, 255);
+  margin-left: 7px;
+  margin: 0;
+ text-align: center;
+}
+main{
+    height: 365vh;
+    width: 100vw;
+}

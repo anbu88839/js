@@ -1,0 +1,23 @@
+.pagination{
+display: inline-block;
+display: flex;
+justify-content: center;
+margin-top: 60px;
+
+}
+.pagination a{
+    text-decoration: none;
+    color:black;
+    padding: 6px 20px;
+    margin: 0.5px;
+    border:1px solid black;
+    border-radius: 5px;
+    float: center; 
+}
+.pagination a.green{
+background-color:green;
+}
+.pagination a:hover:not(.green){
+    background-color: rgb(32, 29, 29);
+           
+}

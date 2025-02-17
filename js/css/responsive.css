@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: aqua;
+    background-image:radial-gradient(white, orange);
+    display: flex;
+    flex-direction: column;
+}
+header,nav,main,footer{
+    display: grid;
+    place-content:center;
+    grid-template-columns: 100%;
+    text-align: center;
+}
+header,footer{
+    background-color: black;
+    color: aliceblue;
+    position: sticky;
+    
+}
+nav{
+    background-color: rgb(103, 122, 139);
+    color: rgb(238, 11, 30);
+    
+    padding: 0.5rem;
+    border-bottom:  2px solid rgb(0, 0, 0);
+    width: 100%;
+}
+header{
+    top: 0;
+}
+footer{
+    bottom: 0;
+}
+main{
+    flex-grow: 1;
+}
+
+@media screen and (min-height:425px) {
+    body{
+
+        background-color: black;
+        background-image: radial-gradient(yellow,red);
+    }
+    
+}
+@media screen and (min-width:567px) {
+    body{
+
+        background-color: black;
+        background-image: radial-gradient(rgb(255, 255, 255),red);
+    }
+    
+}
