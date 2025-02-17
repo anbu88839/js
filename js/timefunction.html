@@ -1,0 +1,28 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div id="mp"></div>
+        <input type="number" id="mla">
+        <button onclick="abc()">Explain</button>
+    </body>
+    <script>
+        const up=document.querySelector("#mp")
+        
+        const time= new Date();
+        cm=time.toLocaleTimeString();
+        up.textContent=cm
+        function abc(){
+            const zz=Number.parseInt (document.querySelector("#mla").value)
+
+            
+            const ney= new Date();
+            // cio=ney.toLocaleTimeString();
+            console.log(ney,zz)
+         ney.setHours(ney.getHours() - zz);
+         up.textContent=ney.toLocaleTimeString();
+
+        }
+    </script>
+</html>

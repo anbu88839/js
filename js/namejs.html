@@ -1,0 +1,55 @@
+<html>
+    <head>
+<title>open box</title>
+<style>
+    #cl{
+        border-radius: 55px;
+        background-color: yellowgreen;
+    }
+
+</style>
+    </head>
+    <body>
+        <input type="text" placeholder="Enter your name" id="name"><br>
+        <input type="number" placeholder="Enter your age" id="age"><br>
+        <input type="text" placeholder="Enter your place" id="place"> <br><br>
+        <button onclick=" join()" id="cl">Enter</button>
+        <div id="output"></div><br>
+        <div id="out"></div>
+
+    </body>
+    <script>
+        function join(){
+
+        
+ var fd=document.querySelector('#age').value
+ var fc=document.querySelector('#name').value
+      
+        var fe=document.querySelector('#place').value
+        let data=document.querySelector("#output")
+        let da=document.querySelector("#out")
+        wwe=fc+fd+fe
+        
+      
+ if(fd>18){
+    
+    
+   if(fe=="mayiladuthurai"){
+    // data.textContent=wwe
+    console.log(wwe)
+    data.textContent="You'r Eligible to vote"
+   }
+   else{
+    console.log("eruga boiiiii")
+   }
+
+   
+ }
+ else{
+    alert("sorry, you should try next time")
+ }
+        }
+       
+    </script>
+    
+</html>

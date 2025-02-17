@@ -1,0 +1,22 @@
+<html>
+    <head>
+
+     <link rel="stylesheet" href="css/mirrorjs.css">
+    </head>
+    <body>
+        <div class="full">
+
+        <input type="text" id="font">
+        <button onclick="run()" class="fd">confirm</button><br><br>
+        <div id="box"></div>
+        </div>
+    </body>
+    <script>
+        function run(){
+        let og=document.querySelector('#font').value
+         let op=document.querySelector("#box")
+            op.textContent=og
+        }
+        
+    </script>
+</html>

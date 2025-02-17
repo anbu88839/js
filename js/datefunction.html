@@ -1,0 +1,40 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div id="zzz"> </div>
+        <input type="number" id="ui"><br>
+        <div id="ak"></div><br>
+        <button onclick="gh()"> ok </button>
+
+
+
+    </body>
+    <script>
+
+
+
+
+        const kl=document.querySelector('#zzz')
+        const uo=new Date().toLocaleDateString()
+     kl.textContent=uo
+
+        function gh(){
+const dheena=Number.parseInt (document.querySelector('#ui').value)
+
+// const arul=document.querySelector('#ak')
+let futureDate = new Date();
+futureDate.setDate(futureDate.getDate()+dheena); // Add 7 days
+kl.textContent= futureDate.toLocaleDateString()
+        }
+
+
+
+    </script>
+</html>
+
+<!-- fg=(futureDate.getDate() +dheena); // Add 7 days -->
+<!-- let futureDate = new Date();
+fg=futureDate.setDate(futureDate.getDate() +dheena); // Add 7 days -->
+<!-- add.textContent=fg --> 

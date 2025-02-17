@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <style>
+            *{
+                margin:0;
+                padding: 0;
+            }
+            .container{
+                display: grid;
+                grid-template-columns: 1 fr;
+                grid-row: auto;
+                grid-area: 
+                    "header"
+                    "main"
+                    "footer"
+                ;
+            }
+            .head{
+                
+                height: 60px;
+                background-color: rgb(204, 0, 255);
+                
+            }
+            .head ul li{
+                display: inline;
+                margin-left: 30px;
+                color: white;
+                text-shadow: 5px 5px 5px black;
+                text-align: center;
+            }
+main{
+   
+    grid-area: main;
+    height: 80vh;
+    background-color: coral;
+}
+.sec1{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 70vh;
+}
+.div1{
+height: 100px;
+background-color: black;
+
+}
+.div2{
+height: 100px;
+background-color: rgb(192, 0, 0);
+
+
+}
+        </style>
+
+    </head>
+    <body>
+        <div class="container">
+        <header class="head">
+            <ul>
+                <li>home</li>
+                <li>about</li>
+                <li>address</li>
+                <li>contact</li>
+            </ul>
+        </header>
+        <main class="main">
+            <section class="sec1">
+                <div class="div1"></div>
+                <div class="div2"></div>
+
+            </section>
+            <section class="sec2">
+
+            </section>
+        </main>
+        <footer></footer>
+
+        </div>
+    </body>
+</html>

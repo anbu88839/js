@@ -1,0 +1,25 @@
+<html>
+    <body>
+        <button onclick="open()">add</button>
+        <div id="ok"></div>
+        <button onclick="close">sub</button>
+    </body>
+    <script>
+       
+
+        function open(){
+
+            const as=Number.parseInt(document.querySelector('#ok').value)
+            const mla=new Date().toLocaleDateString()
+            mla.setDate(mla.getDate()+1);
+            as.textContent=mla
+
+        
+        
+        }
+
+
+
+
+    </script>
+</html>

@@ -1,0 +1,98 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+      
+        <span id="ab"></span>
+        <input type="number" id="cd">
+        <button onclick="add()" id="">+ change</button>
+        <button onclick="ad()" id="">- change</button>
+
+
+
+
+        <span id="ef"></span>
+        <input type="number" id="gh">
+        <button onclick="adiction()" id="">+change</button>
+        <button onclick="adict()" id="">-change</button>
+
+
+    </body>
+    <script>
+           const dd=document.querySelector('#ab')
+           const newone= new Date().toLocaleDateString()
+           dd.textContent=newone
+           function add(){
+
+            const tt=Number.parseInt(document.querySelector('#cd').value)
+            const ll= new Date();
+            ll.setDate(ll.getDate()+tt);
+            dd.textContent=ll.toLocaleDateString()
+
+
+
+           }
+           function ad(){
+
+const tt=Number.parseInt(document.querySelector('#cd').value)
+const ll= new Date();
+ll.setDate(ll.getDate()-tt);
+dd.textContent=ll.toLocaleDateString()
+
+
+
+}
+
+
+
+
+
+           const sey=document.querySelector('#ef')
+            const tell=new Date().toLocaleTimeString();
+            sey.textContent=tell
+            function adiction(){
+
+              
+                const op=n=Number.parseInt(document.querySelector('#gh').value)
+                const time=new Date();
+                time.setHours(time.getHours() + op);
+                sey.textContent=time.toLocaleTimeString();
+
+
+            }
+            function adict(){
+
+              
+const op=n=Number.parseInt(document.querySelector('#gh').value)
+const time=new Date();
+time.setHours(time.getHours() - op);
+sey.textContent=time.toLocaleTimeString();
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+</html>

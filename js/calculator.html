@@ -1,0 +1,56 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <input type="number"id="n1">
+        <input type="number"id="n2"><br><br>
+        <button onclick="addition() ">addition</button>
+        <button onclick="subtraction() ">subtraction</button>
+        <button onclick="multiplication()">multiplication</button>
+        <button onclick="division()">division</button><br><br>
+
+        
+        <script>
+                
+                function addition(){
+    let a=Number.parseInt(document.querySelector("#n1").value)
+    let b=Number.parseInt(document.querySelector("#n2").value)
+     
+     alert(a+b)
+ 
+ }
+
+ function subtraction(){
+    let a=Number.parseInt(document.querySelector("#n1").value)
+    let b=Number.parseInt(document.querySelector("#n2").value)
+     
+     alert(a-b)
+ 
+ }
+
+
+ function multiplication(){
+    let a=Number.parseInt(document.querySelector("#n1").value)
+    let b=Number.parseInt(document.querySelector("#n2").value)
+     
+     alert(a*b)
+ 
+ }
+
+
+ function division(){
+    let a=Number.parseInt(document.querySelector("#n1").value)
+    let b=Number.parseInt(document.querySelector("#n2").value)
+     
+     alert(a/b)
+ 
+ }
+
+
+            
+
+       
+        </script>
+    </body>
+</html>
