@@ -1,0 +1,154 @@
+{
+  "medicines": [
+    {
+      "medicineId": "M001",
+      "name": "Paracetamol 500mg",
+      "category": "Pain Relief",
+      "uses": ["Fever reduction", "Pain relief"],
+      "price": 20.0,
+      "stock": 200,
+      "expiryDate": "2025-12-31",
+      "manufacturer": "XYZ Pharmaceuticals"
+    },
+    {
+      "medicineId": "M002",
+      "name": "Amoxicillin 250mg",
+      "category": "Antibiotic",
+      "uses": ["Bacterial infections"],
+      "price": 50.0,
+      "stock": 100,
+      "expiryDate": "2024-11-30",
+      "manufacturer": "ABC Pharma"
+    },
+    {
+      "medicineId": "M003",
+      "name": "Cough Syrup",
+      "category": "Cough and Cold",
+      "uses": ["Relief from dry cough"],
+      "price": 80.0,
+      "stock": 50,
+      "expiryDate": "2024-05-15",
+      "manufacturer": "HealthCare Co."
+    },
+    {
+      "medicineId": "M004",
+      "name": "Vitamin C Tablets",
+      "category": "Vitamins and Supplements",
+      "uses": ["Boost immunity", "Antioxidant"],
+      "price": 150.0,
+      "stock": 100,
+      "expiryDate": "2026-06-30",
+      "manufacturer": "NutriWell Labs"
+    },
+    {
+      "medicineId": "M005",
+      "name": "Ibuprofen 400mg",
+      "category": "Pain Relief",
+      "uses": ["Inflammation reduction", "Pain relief"],
+      "price": 30.0,
+      "stock": 100,
+      "expiryDate": "2025-08-20",
+      "manufacturer": "MediCare Plus"
+    },
+    {
+      "medicineId": "M006",
+      "name": "Cetirizine 10mg",
+      "category": "Allergy Relief",
+      "uses": ["Relief from allergies", "Hay fever"],
+      "price": 25.0,
+      "stock": 150,
+      "expiryDate": "2025-03-31",
+      "manufacturer": "AllergyCare Labs"
+    },
+    {
+      "medicineId": "M007",
+      "name": "Metformin 500mg",
+      "category": "Diabetes Management",
+      "uses": ["Blood sugar regulation"],
+      "price": 40.0,
+      "stock": 90,
+      "expiryDate": "2025-09-20",
+      "manufacturer": "DiabetesPharma"
+    },
+    {
+      "medicineId": "M008",
+      "name": "Salbutamol Inhaler",
+      "category": "Respiratory",
+      "uses": ["Asthma relief", "Bronchodilation"],
+      "price": 250.0,
+      "stock": 30,
+      "expiryDate": "2024-08-15",
+      "manufacturer": "RespirCare Inc."
+    },
+    {
+      "medicineId": "M009",
+      "name": "Calcium Tablets",
+      "category": "Vitamins and Supplements",
+      "uses": ["Bone health", "Calcium deficiency"],
+      "price": 120.0,
+      "stock": 80,
+      "expiryDate": "2026-01-01",
+      "manufacturer": "NutriStrong Labs"
+    },
+    {
+      "medicineId": "M010",
+      "name": "Omeprazole 20mg",
+      "category": "Gastrointestinal",
+      "uses": ["Acid reflux", "Ulcer treatment"],
+      "price": 35.0,
+      "stock": 70,
+      "expiryDate": "2025-10-10",
+      "manufacturer": "StomachCare Pharma"
+    },
+    {
+      "medicineId": "M011",
+      "name": "Hydroxychloroquine 200mg",
+      "category": "Antimalarial",
+      "uses": ["Malaria prevention", "Autoimmune conditions"],
+      "price": 60.0,
+      "stock": 100,
+      "expiryDate": "2025-07-15",
+      "manufacturer": "Wellness Med"
+    },
+    {
+      "medicineId": "M012",
+      "name": "Insulin Injection",
+      "category": "Diabetes Management",
+      "uses": ["Blood sugar regulation"],
+      "price": 500.0,
+      "stock": 20,
+      "expiryDate": "2024-06-30",
+      "manufacturer": "GlucoseCare Ltd."
+    },
+    {
+      "medicineId": "M013",
+      "name": "Antacid Tablets",
+      "category": "Gastrointestinal",
+      "uses": ["Relieve acidity", "Heartburn relief"],
+      "price": 15.0,
+      "stock": 300,
+      "expiryDate": "2026-03-20",
+      "manufacturer": "DigestCare Pharma"
+    },
+    {
+      "medicineId": "M014",
+      "name": "Loratadine 10mg",
+      "category": "Allergy Relief",
+      "uses": ["Runny nose", "Skin allergies"],
+      "price": 30.0,
+      "stock": 200,
+      "expiryDate": "2025-12-12",
+      "manufacturer": "ClearAllergy Pharma"
+    },
+    {
+      "medicineId": "M015",
+      "name": "Multivitamin Capsules",
+      "category": "Vitamins and Supplements",
+      "uses": ["Overall health improvement"],
+      "price": 180.0,
+      "stock": 75,
+      "expiryDate": "2027-01-01",
+      "manufacturer": "NutriEssentials Co."
+    }
+  ]
+}
