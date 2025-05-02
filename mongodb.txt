@@ -1,0 +1,136 @@
+Microsoft Windows [Version 10.0.19045.5737]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\LIVEWIRE>mongosh
+Current Mongosh Log ID: 68009fd2c60787d7e31a44f5
+Connecting to:          mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.0.2
+Using MongoDB:          7.0.3
+Using Mongosh:          2.0.2
+mongosh 2.5.0 is available for download: https://www.mongodb.com/try/download/shell
+
+For mongosh info see: https://docs.mongodb.com/mongodb-shell/
+
+------
+   The server generated these startup warnings when booting
+   2025-04-15T09:37:29.950+05:30: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+------
+
+test> show dbs
+abishekData        40.00 KiB
+admin              40.00 KiB
+college            72.00 KiB
+config            108.00 KiB
+employees          48.00 KiB
+local             168.00 KiB
+nodemongo          72.00 KiB
+simpleCrudDB      144.00 KiB
+test              148.00 KiB
+try1               40.00 KiB
+yourDatabaseName   72.00 KiB
+nodemongo> db.neha.insertOne({name:'neha',age:19,degree:"M.Tech",address:'trichy',addictional:'if you want to play play everyday',work:'developer'})
+{
+  acknowledged: true,
+  insertedId: ObjectId("6800a1c4c60787d7e31a44f6")
+}
+nodemongo> db.neha.find()
+[
+  {
+    _id: ObjectId("6800a1c4c60787d7e31a44f6"),
+    name: 'neha',
+    age: 19,
+    degree: 'M.Tech',
+    address: 'trichy',
+    addictional: 'if you want to play play everyday',
+    work: 'developer'
+  }
+]
+nodemongo> db.drop.neha()
+TypeError: db.drop.neha is not a function
+nodemongo> db.drop.neha()
+TypeError: db.drop.neha is not a function
+nodemongo> db.neha.drop()
+true
+nodemongo>
+
+nodemongo> show collections
+datas
+nodemongo> db.datas.drop()
+true
+nodemongo> show collections
+
+nodemongo> db.neha.insertOne({name:'neha',age:19,degree:"M.Tech",address:'trichy',addictional:'if you want to play play everyday',work:'developer'})
+{
+  acknowledged: true,
+  insertedId: ObjectId("6800a40fc60787d7e31a44f7")
+}
+nodemongo> db.neha.insertOne({name:'raj',age:14,degree:"M.Tech",address:'trichy',addictional:'if you want to play play everyday',work:'developer'})
+{
+  acknowledged: true,
+  insertedId: ObjectId("6800a421c60787d7e31a44f8")
+}
+nodemongo> db.neha.find()
+[
+  {
+    _id: ObjectId("6800a40fc60787d7e31a44f7"),
+    name: 'neha',
+    age: 19,
+    degree: 'M.Tech',
+    address: 'trichy',
+nodemongo>  db.neha.drop() db.neha.drop()
+    work: 'developer'
+  },
+nodemongo>
+    _id: ObjectId("6800a421c60787d7e31a44f8"),
+    name: 'raj',
+    age: 14,
+    degree: 'M.Tech',
+    address: 'trichy',
+    addictional: 'if you want to play play everyday',
+    work: 'developer'
+  }
+]
+nodemongo> db.neha.find({},name:1)
+Uncaught:
+SyntaxError: Unexpected token, expected "," (1:20)
+
+> 1 | db.neha.find({},name:1)
+    |                     ^
+  2 |
+
+nodemongo> db.neha.find({},(name:1))
+Uncaught:
+SyntaxError: Unexpected token, expected "," (1:21)
+
+> 1 | db.neha.find({},(name:1))
+    |                      ^
+  2 |
+
+nodemongo> db.neha.find({},{name:1})
+[
+  { _id: ObjectId("6800a40fc60787d7e31a44f7"), name: 'neha' },
+  { _id: ObjectId("6800a421c60787d7e31a44f8"), name: 'raj' }
+]
+nodemongo> db.neha.find({},{name:1,age:1})
+[
+  { _id: ObjectId("6800a40fc60787d7e31a44f7"), name: 'neha', age: 19 },
+  { _id: ObjectId("6800a421c60787d7e31a44f8"), name: 'raj', age: 14 }
+]
+nodemongo> db.neha.find({age:14})
+[
+  {
+    _id: ObjectId("6800a421c60787d7e31a44f8"),
+    name: 'raj',
+    age: 14,
+    degree: 'M.Tech',
+    address: 'trichy',
+    addictional: 'if you want to play play everyday',
+    work: 'developer'
+  }
+]
+nodemongo> db.neha.find({age:14},{name:1})
+[ { _id: ObjectId("6800a421c60787d7e31a44f8"), name: 'raj' } ]
+nodemongo>
+
+
+
+
