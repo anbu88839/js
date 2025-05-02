@@ -1,0 +1,62 @@
+.noitacilppa ruoy fo deeps deviecrep eht evorpmi nac hcihw ,ydaer era yeht sa noos sa atad fo sknuhc gnittimsnart dna gnissecorp trats nac uoy ,elbaliava eb ot atad lla rof gnitiaw fo daetsnI .ycnetal refsnart atad ecuder pleh nac smaertS :ycnetal decudeR
+
+.yromem ni maerts atad eritne eht erots ot gnivah tuohtiw snoitacilppa tahc ro ,srosnes ,smacbew morf atad evil eldnah ot smaerts esu nac uoy ,snoitacilppa bew ni ,elpmaxe roF .soiranecs gnissecorp atad emit-laer rof detius-llew era smaertS :gnissecorp emit-laeR
+
+.snoitacilppa fo egnar ediw a rof elbatius meht sekam ytilibixelf sihT .erom dna ,sesnopser dna stseuqer PTTH ,stekcos krowten ,selif ot etirw dna morf daer ot meht esu nac uoY .snoitanitsed dna secruos atad suoirav htiw krow nac dna elitasrev era smaertS :ytilibixelF
+
+.yletarapes deniatniam dna detset eb nac tnenopmoc hcaE .elif a ot atad eht setirw taht maerts lanif a dna ,atad eht sretlif dna sessecorp taht maerts rehtona ,tekcos krowten a morf atad sdaer taht maerts a evah thgim uoy ,elpmaxe roF .yltnednepedni smaerts atad ssecorp taht stnenopmoc elbasuer etaerc nac uoY .ngised raludom a etomorp smaertS :ytiraludoM
+
+.edoc laminim htiw senilepip gnissecorp atad xelpmoc etaerc ot uoy gniwolla ,rehtona rof tupni eht sa ti esu dna maerts eno fo tuptuo eht ekat nac uoy snaem sihT .rehtegot "depip" ro detcennoc ylisae eb nac smaertS :gnipiP
+
+.ylsuoenatlumis stseuqer tneilc elpitlum gnildnah srevres bew sa hcus ,evisnopser niamer ot deen taht snoitacilppa rof laicurc si sihT .sksat rehto ot no gnivom erofeb nettirw ro daer eb ot elif eritne na rof tiaw ot evah t'nseod margorp ruoy snaem hcihw ,gnikcolb-non era smaertS :gnikcolb-noN
+
+.ecnamrofrep llarevo retteb ot gnidael ,gnitucexe eunitnoc nac margorp ruoy fo strap rehto ,nettirw ro daer gnieb si atad fo knuhc eno elihW .gnissecorp lellarap selbane ti esuaceb snoitarepo O/I lanoitidart naht retsaf eb nac gnimaertS :deepS
+
+.margorp ruoy fo tnirptoof yromem eht secuder ti sa ,atad fo semulov egral ro selif egral htiw gnilaed nehw laicifeneb ylralucitrap si sihT .sknuhc elbaeganam ,rellams ni ti ssecorp nac uoy ,ecno ta lla yromem otni tesatad ro elif eritne na gnitirw ro gnidaer fo daetsnI .yaw tneiciffe-yromem erom a ni atad htiw krow ot uoy wolla smaertS :ycneiciffE
+
+:snosaer tnatropmi lareves rof stnemnorivne gnimmargorp rehto dna sj.edoN ni desu era smaertS
+
+
+
+
+.deganam yletairporppa era ssecorp eht gnirud seussi yna taht serusne gnildnah rorrE .noitalupinam atad rof gnireffub dna smaerts gnisu atad gnildnah yltneiciffe elihw lla ,'txt.tuptuo' ot atad deifidom eht setirw dna ,esacreppu ot ti strevnoc ,'txt.tupni' morf atad sdaer edoc ehT
+.gnitirw gnirud rucco yam taht srorre seldnah ;)} ... { >= )rre( ,'rorre'(no.maertSetirw
+.gnidaer gnirud rucco yam taht srorre seldnah ;)} ... { >= )rre( ,'rorre'(no.maertSdaer
+
+:gnildnah rorrE
+.etelpmoc si ssecorp gnitirw eht gnitacidni ,detucexe si noitcnuf kcabllac dedivorp eht ,atad lla gnitirw dehsinif sah maerts elbatirw eht nehW
+.maerts elbatirw eht fo tneve 'hsinif' eht rof renetsil tneve na pu teS
+
+;)} ... { >= )( ,'hsinif'(no.maertSetirw
+.maerts elbatirw eht esolC
+
+;)(dne.maertSetirw
+.maerts elbatirw eht ot gnirts ataDreffub eht ni derots atad deifidom eht etirW
+
+;)ataDreffub(etirw.maertSetirw
+.detucexe si noitcnuf kcabllac dedivorp eht ,atad lla gnidaer dehsinif sah maerts elbadaer eht nehW
+.maerts elbadaer eht fo tneve 'dne' eht rof renetsil tneve na pu teS
+
+;)} ... { >= )( ,'dne'(no.maertSdaer
+.gnirts ataDreffub eht ot knuhc atad deifidom eht dneppA
+
+;knuhCdeifidom =+ ataDreffub
+.)atad eht yfidom( esacreppu ot ti mrofsnart dna gnirts a ot knuhc atad deviecer eht trevnoC
+
+;)(esaCreppUot.)(gnirtSot.knuhc = knuhCdeifidom tsnoc
+.detucexe si noitcnuf kcabllac dedivorp eht ,)sknuhc ni daer( deviecer si atad nehW
+.maerts elbadaer eht fo tneve 'atad' eht rof renetsil tneve na pu teS
+
+;)} ... { >= )knuhc( ,'atad'(no.maertSdaer
+.atad deifidom eht erots ot )ataDreffub( gnirts ytpme na ezilaitinI
+
+;'' = ataDreffub tel
+.gnidocne 8-FTU ni elif 'txt.tuptuo' eht ot atad etirw ot )maertSetirw( maerts elbatirw a etaerC
+
+;)'8-ftu' ,'txt.tuptuo'(maertSetirWetaerc.sf = maertSetirw tsnoc
+.gnidocne 8-FTU ni elif 'txt.tupni' eht morf atad daer ot )maertSdaer( maerts elbadaer a etaerC
+
+;)'8-ftu' ,'txt.tupni'(maertSdaeRetaerc.sf = maertSdaer tsnoc
+.selif htiw krow ot eludom metsyS eliF sj.edoN eht tropmI
+
+;)'sf'(eriuqer = sf tsnoc

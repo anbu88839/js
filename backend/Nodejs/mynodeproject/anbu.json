@@ -1,0 +1,32 @@
+[
+
+    {
+        "id":1,
+        "name":"manoj",
+        "age":25,
+        "degree":"bcom",
+        "work":"employee",
+        "address":"chennai"
+    },
+    {
+
+        "id":2,
+        "name":"sharuk",
+        "age":30,
+        "degree":"bcs",
+        "work":"employee",
+        "address":"banglore"
+    
+    },
+    
+    {
+
+        "id":3,
+        "name":"suresh",
+        "age":35,
+        "degree":"be",
+        "work":"employee",
+        "address":"pune"
+    }
+    
+]
