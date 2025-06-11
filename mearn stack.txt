@@ -1,0 +1,96 @@
+Microsoft Windows [Version 10.0.19045.5854]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\LIVEWIRE\Documents\Full App>npm install -g express-generator
+npm warn deprecated mkdirp@0.5.1: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+
+changed 10 packages in 2s
+
+C:\Users\LIVEWIRE\Documents\Full App>express --view=hbs backend
+
+   create : backend\
+   create : backend\public\
+   create : backend\public\javascripts\
+   create : backend\public\images\
+   create : backend\public\stylesheets\
+   create : backend\public\stylesheets\style.css
+   create : backend\routes\
+   create : backend\routes\index.js
+   create : backend\routes\users.js
+   create : backend\views\
+   create : backend\views\error.hbs
+   create : backend\views\index.hbs
+   create : backend\views\layout.hbs
+   create : backend\app.js
+   create : backend\package.json
+   create : backend\bin\
+   create : backend\bin\www
+
+   change directory:
+     > cd backend
+
+   install dependencies:
+     > npm install
+
+   run the app:
+     > SET DEBUG=backend:* & npm start
+
+
+C:\Users\LIVEWIRE\Documents\Full App>npm create vite@latest
+
+> npx
+> create-vite
+
+|
+o  Project name:
+|  FrontEnd
+|
+o  Package name:
+|  package.json
+|
+o  Select a framework:
+|  React
+|
+o  Select a variant:
+|  JavaScript
+|
+o  Scaffolding project in C:\Users\LIVEWIRE\Documents\Full App\FrontEnd...
+|
+—  Done. Now run:
+
+  cd FrontEnd
+  npm install
+  npm run dev
+
+
+C:\Users\LIVEWIRE\Documents\Full App>cd frontend
+
+C:\Users\LIVEWIRE\Documents\Full App\FrontEnd>npm install
+
+added 225 packages, and audited 226 packages in 22s
+
+48 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\LIVEWIRE\Documents\Full App\FrontEnd>cd ..
+
+C:\Users\LIVEWIRE\Documents\Full App>cd backend
+
+C:\Users\LIVEWIRE\Documents\Full App\backend>npm install
+
+added 63 packages, and audited 64 packages in 5s
+
+11 vulnerabilities (3 low, 4 high, 4 critical)
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+C:\Users\LIVEWIRE\Documents\Full App\backend>cd ..
+
+C:\Users\LIVEWIRE\Documents\Full App>code .
+
+C:\Users\LIVEWIRE\Documents\Full App>
